@@ -50,7 +50,7 @@ function i18n() {
     this.getLocaleFile = function (locale) {
         var self = this;
         var req = new XMLHttpRequest();
-        req.open('GET', '/locales/' + locale + '.json', true);
+        req.open('GET', 'locales/' + locale + '.json', true);
         req.onreadystatechange = function (e) {
             if (req.readyState === 4) {
                 if (req.status === 200) {
