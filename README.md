@@ -23,7 +23,6 @@ Create your translation files in locales folder like this:
 * /locales/de.json
 
 ## Usage
-
 In your main script :
 ```javascript
 window.addEventListener('load', function () {
@@ -43,3 +42,6 @@ And, add the attribute __data-i18n__ on elements you want to translate :
 ```html
 <span data-i18n="key"></span>
 ```
+
+## Example
+[Live Example](http://jack3113.github.io/i18n/)
