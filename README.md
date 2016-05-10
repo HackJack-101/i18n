@@ -45,3 +45,10 @@ And, add the attribute __data-i18n__ on elements you want to translate :
 
 ## Example
 [Live Example](http://jack3113.github.io/i18n/)
+
+## Browser compatibility
+- Chrome: 1
+- Firefox: 3.5
+- Internet Explorer: 9
+- Opera: 10
+- Safari: 3.2
